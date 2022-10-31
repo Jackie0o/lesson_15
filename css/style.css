@@ -389,7 +389,6 @@ main {
 	padding: 0 0 0 135px;
 }
 .list__body {
-	padding: 0 0 0 32px;
 	display: flex;
 	flex-direction: column;
 	gap: 12px;
@@ -397,6 +396,7 @@ main {
 .list__item {
 	line-height: 160%;
 	position: relative;
+	padding: 0 0 0 32px;
 }
 .list__item::before {
 	content: "";
@@ -406,7 +406,6 @@ main {
 	background: url(../img/icons/vector.png) 0 0 no-repeat;
 	height: 16px;
 	width: 16px;
-	margin: 0 16px 0 -32px;
 	transition: all 0.4s ease 0s;
 }
 .list__item:hover::before {
